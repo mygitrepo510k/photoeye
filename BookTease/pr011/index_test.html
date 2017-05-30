@@ -1,0 +1,147 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<HTML>
+<head>
+<TITLE>photo-eye 3D Book</TITLE>
+<script language="JavaScript" src="/ctveweb/scripts/header.js"></script><SCRIPT Language="VBScript">		
+<!--
+Dim Plugin_obj			' this pointer is used to try to instantiate the ActiveX Control 
+		 
+Function ie_detect(objectName)
+	' function: ie_detect()
+	' purpose : This VBscript will try to detect the plug-ins for IE 4.0 and up. It attempts
+	'           to create the ActiveX Controls passed to it, checks for successful creation,
+	'           then destroys them. This script will be ignored by Netscape browsers.
+
+
+	ie_detect = 2			' return value - defaults to not detectable unless otherwise 
+							'   set later
+	
+	
+	' CreateObject is only supported with VBScript version 2+, so  
+	' only do the check if it is supported. Otherwise, return false
+	if ScriptEngineMajorVersion >= 2 then
+		ie_detect = 1					'Indicates that the control is detectable
+
+		On Error Resume Next	' Ignore errors if possible, if the client has a script debugger installed,
+								' this error handling will not work, but it should not be needed
+
+		'Create ActiveX Control Instantiation
+		Set Plugin_obj = CreateObject(objectName)
+
+		'Check whether Control was properly instantiated
+		if IsObject(Plugin_obj) then
+			ie_detect = 0				'Indicates that the control has been found
+		end if
+
+	end if
+End Function
+
+' -->		 
+</SCRIPT>
+
+
+<script language="javascript">
+<!--
+
+function testAx() {
+    if ( ie_detect("MetaStream.MetaStream.1") == 0) { 
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+//-->
+</script>    
+
+<link rel="stylesheet" href="/ctveweb/styles/main_win.css" media="screen">
+	<script language=JavaScript src=http://www5.metacreations.com/metastream/viewer/data.js></script></head>
+<BODY LINK="Yellow" ALINK="Red" VLINK="Yellow" background="../../img/BlackBackground.gif" text="Silver">
+<table width="90%" border="0" align="center" >
+     <tr>
+      <td align="center" valign="top">
+
+<SCRIPT LANGUAGE="Javascript">
+
+browserVersion = determinBrowser();
+
+if ( ( browserVersion ==  "IE4M" ) && ( GetCookie("MacMetaStreamVersion") == currentMacPluginNumber ) ) {
+    document.write ('<embed src="PR011.mts" width="406" height="250" mouse="Platter" ui="Black" logo="0" faces="0" type="application/metastream" renderer="pbtr" background="0 0 0" textureshade="0" platterangularspeed="30"  2dscale="1.2" antialias="0" cull="none" link="page1.html" linkname="Double Click to Browse this Book"></embed>');
+}
+else if ( ( ( browserVersion ==  "NS4W" ) || (browserVersion == "NS4M" ) ) && ( mimeAndPluginReady("application/metastream","MetaStream") ) ) {
+    document.write ('<embed src="PR011.mts" width="406" height="250" mouse="Platter" ui="Black" logo="0" faces="0" type="application/metastream" renderer="pbtr" background="0 0 0" textureshade="0" platterangularspeed="30"  2dscale="1.2" antialias="0" cull="none" link="page1.html" linkname="Double Click to Browse this Book"></embed>');
+}
+else if ( ( browserVersion ==  "IE3W" ) && testAx() ) { 
+    document.write('<object classid="clsid:A1CCFAC6-E092-11d1-B0F1-00600832DB99" width="300" height="150">');
+    document.write('<param name="Source" value="http://www.metacreations.com/metastream/img/mts_black.mts">');
+    document.write('<param name="BorderStyle" value="0"><param name="BackgroundColor" value="16777215">');
+    document.write('<param name="RotationMode" value="0"><param name="RotationSpeed" value="60"><param name="PlatterAxis" value="0">');
+    document.write('<param name="AutoResolution" value="0"><param name="Scale2D" value="2.6"><param name="RotationType" value="0">');
+    document.write('<param name="Renderer" value="2"><param name="RenderingMode" value="0"><param name="AntiAlias" value="-1">');
+    document.write('<param name="ShowLogo" value="0"><param name="ShowFaceCount" value="0">');
+    document.write('<param name="camera" value="0.000 0.000 -3.460 -0.050 -0.000 0.000 354.290 0.000 0.000 -0.000 1.000"></object>');
+}
+else {
+	document.write ('<img src="../../photoeye.com/htdocs/booktease/pr011/cover.jpg" width="300" height="150">');
+}			
+
+</script>
+</td></tr></table>
+<table width="90%" border="0" align="center" >
+	 <tr>
+    <td align="center"> <!---   pluginurl="http://www.metastream.com/plugins.html" ---> 
+      <font face="Verdana,Helvetica,Arial, Sans-Serif" size="1" color="white"> 
+      Interact with this book in 3D: <a href="../download.html">download</a> 
+      free plugin. Otherwise <a href="page0.html">choose 2D</a><br>
+           <br>
+        <font color="Yellow">Handle 
+        it! </font><font color="white">Click and drag left button<br>
+        </font><font color="Yellow">Move it! </font><font color="white">Click and drag left button + SHIFT key<br>
+        </font><font color="Yellow">Change its size! </font><font color="white">Click and drag left button + CTRL or OPTION key<br></font>
+        <font color="white">For a cool effect, zoom in until you view the book from inside out</font><br><br>
+		<font color="yellow">Browse it! </font><font color="White">Click on <a href="Page1.html">above book</a> to see page spreads. Or 
+<A href="../../templates/ShowDetails.cfm?RecordID=8855" target=Right>Buy it!</a><br><br> 
+<font color="white">
+View a <a href="index_hr.html">higher resolution</a> 3D version. Download times will be longer
+      </font></font>
+	       <br><br></font>
+	   <hr width="300" size="1" color="Red" noshade>
+      <table width="90%" border="0">
+        <tr>
+          <td align="center"><font face="Verdana,Helvetica,Arial, Sans-Serif" size="1" color="white">If 
+            you do not see any 3D content in the frame above, you probably do 
+            not have the required MetaStream plugin which may be <a href="../download.html">downloaded</a> 
+            for free. Read the <a href="../requirements.html">system requirements</a> for more details. <a href="../publishers.html">Publishers</a>: 
+            read about our 3D BookTease&#153; plugin for your site. <br><br>
+			This 3D BookTease!&#153; &copy; 2000 by photo-eye books &amp; prints.<br>All Rights Reserved.</font></td>
+        </tr>
+      </table>
+   </td>
+  </tr></table>
+		
+<script language="JavaScript">
+function preload() {
+image0 = new Image();
+image0.src = "Page0.jpg";
+image1 = new Image();
+image1.src = "Page1.jpg";
+image2 = new Image();
+image2.src = "Page2.jpg";
+image3 = new Image();
+image3.src = "Page3.jpg";
+image4 = new Image();
+image4.src = "Page4.jpg";
+image5 = new Image();
+image5.src = "Page5.jpg";
+image6 = new Image();
+image6.src = "Page6.jpg";
+image7 = new Image();
+image7.src = "Page7.jpg";
+image8 = new Image();
+image8.src = "Page8.jpg"; }
+setTimeout("preload()", 30000);
+</script>  
+    
+</BODY></HTML>

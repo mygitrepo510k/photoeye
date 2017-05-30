@@ -1,0 +1,186 @@
+	.standard_container {
+		width: 990px;
+		margin: 10px auto;
+		display: table;
+	}
+	
+	.standard_container form .invalid {
+		border: 2px solid #800000;
+		background: #ffffcc;
+	}
+	
+	.standard_container form input {
+		margin-bottom: 5px;
+	}
+	
+	.standard_container div.dented {
+		margin: 25px 0 25px 135px;
+	}
+	
+	.standard_container h1,
+	.standard_container h2,
+	.standard_container h3 {
+		margin-left: 135px;
+		color: maroon;
+	}
+	
+	.standard_container {
+		color: #03878E;
+		width:990px;
+		margin:0 auto;
+		padding: 25px;
+		text-align: left;
+	}
+
+
+	.standard_container h1 {font-size:30px;}
+	.standard_container h2 {font-size:18px;}
+	.standard_container h3 {font-size:14px; border-bottom: 1px dotted #03878E;}
+	
+	.error_messages {
+		color: #800000;
+		margin-left: 135px;
+	}
+	
+/* catalog form */	
+
+	.standard_container .split_container {
+		width: 100%;
+		display: table;
+	}
+	
+	.standard_container	#publisher_direct_catalog_form div.split_container div.left_pane {
+		width: 50%;
+		float: left;
+		clear: none;
+	}
+	
+	.standard_container #publisher_direct_catalog_form div.split_container div.left_pane input[type=text] {
+		width: 315px;
+	}
+	
+	.standard_container	#publisher_direct_catalog_form div.split_container div.right_pane h2 {
+		margin-left: 0;
+	}
+	
+	.standard_container #publisher_direct_catalog_form div.split_container div.right_pane {
+		width: 49%;
+		float: left;
+		clear: none;
+	}
+		
+	#publisher_direct_catalog_form div#publisher_direct_catalog_preview {
+		height: 70px;
+		width: 470px;
+		background: #fff;
+		color: #333;
+		font-family: Verdana,Arial,Helvetica,Sans-Serif;
+		padding: 10px;
+		border: 1px solid #aaa;
+	}
+	
+		#publisher_direct_catalog_form div#publisher_direct_catalog_preview div {
+			margin: 0px;
+		}
+		
+		#publisher_direct_catalog_preview a {
+			color: #375978;
+		}
+
+		#preview_title {
+			font-size: 20px;
+			font-weight: 500;
+			line-height: 24px;
+		}
+		
+		#preview_subtitle {
+			color: #555;
+			font-size: 16px;
+			line-height: 24px;
+		}
+		
+		#preview_authors {
+			font-size: 12px;
+			font-weight: normal;
+			line-height: 18px;
+		}
+
+		#preview_info {
+			font-size: 12px;
+			font-weight: normal;
+			font-style: italic;
+			line-height: 18px;
+		}
+		
+		#publisher_direct_catalog_form div#publisher_direct_catalog_preview #preview_description_header {
+			border-bottom: 1px solid #DDDDDD;
+			padding-bottom: 1px;
+			font-size: 12px;
+			line-height: 18px;
+			margin-top: 25px;
+		}
+		
+		#preview_description {
+			font-size: 12px;
+			line-height: 18px;
+		}
+
+	#publisher_direct_catalog_form div {
+		clear:both;
+		display: table;
+		margin-bottom: 20px;
+	}
+	
+	#publisher_direct_catalog_form label {
+		color: #03878E;
+		float: left;
+		width:125px;
+		text-align: right;
+		padding-right: 10px;
+	}
+	
+	#publisher_direct_catalog_form input {
+		display: inline;
+	}
+		
+	#publisher_direct_catalog_form input[type=text].binding_number_suffix {
+		width: 60px;
+	}
+
+	#publisher_direct_catalog_form input[type=text] {
+		width: 400px;
+	}
+	
+	#publisher_direct_catalog_form textarea {
+		width: 300px;
+		height: 300px;
+	}
+	
+	#publisher_direct_catalog_form input[name=Pages] {
+		width: 50px;
+	}
+	
+	#publisher_direct_catalog_form .deleted {
+		opacity: 0.5;
+		filter: alpha(opacity=50);
+	}
+	
+	#publisher_direct_catalog_form .note {
+		font-size: 12px;
+	}
+	
+	#publisher_direct_catalog_form input[type=submit] {
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		padding: 5px 10px;
+		color: #fff;
+		background: #03878E;
+		font-size: 14px;
+	}
+	
+	#publisher_direct_catalog_form .binding_fields {
+		border-bottom: 1px dotted #03878E; 
+	}
+	
+

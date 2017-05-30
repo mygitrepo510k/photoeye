@@ -1,0 +1,516 @@
+body {
+	padding: 10px 0px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	outline: none;
+}
+
+a:visited {
+	color: inherit;	
+}
+
+a:hover {
+	color: inherit;	
+}
+
+a:active {
+	color: inherit;
+}
+
+a img { border: none; }
+
+label { 
+	font-size: 9px;
+	text-transform: uppercase;
+	display:block;
+	font-family: Arial, Sans-serif;
+	padding-left: 2px;
+	margin-top: 15px;
+}
+
+textarea {
+	width: 600px;
+	height: 300px;
+}
+
+input[type='submit'] {
+	border: 1px solid #999;
+	background: white;
+}
+
+h4 {
+	margin: 0;
+	font-size: 30px;
+	font-family: Georgia, Serif;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: Georgia, Serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin: 0px;
+	font-weight: normal;
+}
+
+
+/* global menu */
+	#menu {
+		width: 992px;
+		margin: 0 auto;
+		padding-bottom: 0px;
+		font-family: Arial, Sans-Serif;
+		font-size: 10px;
+		text-transform: uppercase;
+		color: #555;
+		height: 50px;
+	}
+		#menu a:hover {
+			background: #FFFFCC;
+		}
+	
+		#logo {
+			background: url('/photoeye_editions/images/logo.jpg');
+			width: 208px;
+			height: 53px;
+			float: left;
+		}
+		
+		#menu .buffer {
+			width: 158px;
+			float: left;
+			height: 53px;
+		}
+		#menu .option {
+			float: left;
+			width: 125px;
+			height: 53px;
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+		}
+			#menu .option a {
+				padding:0 5px;
+			}
+			#menu .option p {
+				margin-top: 15px;
+				padding: 5px 0;
+				border-right: 1px solid #ccc;
+			}
+				#menu .option p.last {
+					border-right: none;
+				}
+		
+		#menu .off {
+			background: url('/photoeye_editions/images/menu_line.gif') repeat-x;
+		}
+
+		#menu .on {
+			background: url('/photoeye_editions/images/menu_on.gif');
+			color: #777;
+		}
+
+		#menu .end {
+			width: 1px;
+			background: url('/photoeye_editions/images/menu_end.gif');
+			height: 53px;
+			float: left;
+		}
+/* global content */	
+
+	.content {
+		border: 1px solid #ccc;
+		border-top: none;
+		border-bottom: none;
+		width: 940px;
+		margin: 0 auto;
+		padding: 25px;
+		color: #333;
+	}
+	
+	.window {
+		clear: both;
+		padding: 0;
+		width: 992px;
+		margin: 0 auto;
+	}
+	
+		/* to display errors */
+	
+		.window.error .exclaimation {
+			color: #cc0000;
+		}
+		
+		.window.error .message {
+			border-left: 1px dashed #cc0000;
+			border-right: 1px dashed #cc0000;
+		}
+		
+		.window.error .message span {
+			color: #cc0000;
+		}
+		
+		/* to display notices */
+		
+		.window.notice .exclaimation {
+			color: #3fa61b;
+		}
+		
+		.window.notice .message {
+			border-left: 1px dashed #3fa61b;
+			border-right: 1px dashed #3fa61b;
+		}
+		
+		.window.notice .message span {
+			color: #3fa61b;
+		}
+	
+	.open_buffer {
+		min-height: 1px;
+		border: 1px solid #ccc;
+		border-top: none;
+		border-bottom: 1px solid #aaa;
+	}
+	
+	.close_buffer {
+		min-height: 1px;
+		border: 1px solid #ccc;
+		border-bottom: none;
+	}
+	
+	.exclaimation {
+		float: left;
+		font-size: 83px;
+		padding-left: 60px;
+		font-family: Georgia, Serif;
+	}
+	
+	.message {
+		margin: 0 10%;
+		padding: 25px;
+		background: white;
+		color: #333;
+		text-align: center;
+		font-size: 14px;
+		min-height: 45px;
+	}
+	
+	.message span {
+		text-transform: uppercase;
+		font-size: 12px;
+	}
+	
+
+/* global content divider */
+	.divider_top {
+		font-weight: normal;
+		font-size: 11px;
+		text-transform: uppercase;
+		font-family: Arial, Verdana, Sans-Serif;
+		border-top: 1px solid #ccc;
+		color: #777;
+		padding: 6px 8px;
+		margin-top: 15px;
+	}
+	.divider_bottom {
+		height: 9px;
+	}
+	.divider_bottom .left{
+		float: left;
+		width: 24px;
+		height: 9px;
+		border-top: 1px solid #ccc;
+	}
+	.divider_bottom .arrow {
+		float: left;
+		width: 16px;
+		height: 9px;
+		background: url('/photoeye_editions/images/divider_arrow.gif');
+	}
+	.divider_bottom .right {
+		float: left;
+		width: 900px;
+		height: 9px;
+		border-top: 1px solid #ccc;
+	}
+/* global footer */
+	#footer {
+		width: 992px;
+		margin: 0 auto;
+		text-align: right;
+		font-size: 10px;
+		font-family: Arial, Verdana, Sans-Serif;
+		color: #999;
+		padding-top: 8px;
+		border-top: 1px solid #aaa;
+	}
+
+/* feature publication */
+		.big_citation {
+			vertical-align: middle;
+			color: #333;
+			padding: 20px 50px;
+			font-family: Verdana, Sans-Serif;
+			font-size: 11px;
+			min-height: 450px;
+		}
+			.big_citation h1 {
+				margin: 5px 0;
+				font-size: 30px;
+				font-family: Georgia, Serif;
+				font-weight: normal;
+			}
+			
+			.big_citation h2 {
+				margin: 0 0 10px 0;
+				font-weight: normal;
+				font-family: Verdana, Arial, Sans-Serif;
+				font-size: 12px;
+			}
+			
+			.big_citation h3 {
+				text-tranform: uppercase;
+				margin: 0;
+				font-size: 10px;
+				font-weight: normal;
+				font-family: Verdana, Arial, Sans-Serif;
+			}
+			
+			.big_citation .image {
+				margin: 0 25px 10px 0;
+				float: left;
+			}
+			
+			.big_citation p {
+				margin: 0px;
+			}
+			.centered_vertically {
+				display: table-cell;
+				height: 200px;
+				vertical-align: middle;
+			}
+/* small citations */
+	
+	.small_citation_row {
+		padding-left: 13px;
+		display: table;
+		clear:both;
+	}
+		
+		.small_citation {
+			font-size: 10px;
+			font-family: Verdana, Sans-Serif;
+			color: #333;
+			text-align:center;
+			width: 150px;
+			padding: 25px 37px;
+			display: table-cell;
+		}
+		
+		.small_citation em {
+			font-size: 13px;
+			font-family: Georgia, Serif;
+			line-height: 14px;
+		}
+		
+/* full citation */
+
+	.full_citation {
+		padding: 0 50px;
+		font-family: Verdana, Arial, Sans-Serif;
+		font-size: 12px;
+	}
+	
+	.details {
+		font-size: 13px;
+	}
+	
+	.full_citation .description {
+		margin: 20px 0;
+	}
+	
+		.window .image_box {
+			width: 900px;
+			margin: 0 auto;
+			text-align: center;
+			height: 500px;
+			background: #999;
+		}
+		
+		
+		.image_box .canvas {
+			float: left;
+			height: 480px;
+			width: 480px;
+			padding: 10px;
+			background: #777;
+		}
+		
+			.canvas .align_middle {
+				height: 480px;
+				width: 480px;
+			}
+		
+		.image_box .information {
+			float: left;
+			height: 440px;
+			width: 380px;
+			padding: 30px 10px;
+		}
+		
+			.information .align_bottom {
+				height: 140px;
+				width: 380px;
+			}
+		
+			.information .mini_citation {
+				text-align: left;
+				width: 400px;
+				color: white;
+			}
+			
+			.information .mini_citation .description {
+				font-size: 11px;
+				font-family: Verdana, Sans-Serif;
+				margin-top: 5px;
+			}
+		
+			.information .thumb_tray {
+				display: block;
+				height: 300px;
+				width: 400px;
+			}
+			
+
+				
+				.thumb_tray .row {
+					width: 100px;
+					height: 100%;
+					padding: 0 5px;
+					float: left;
+				}
+			
+	.align_middle {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	
+	.align_bottom {
+		display: table-cell;
+		vertical-align: bottom;
+		height: 100%;
+	}
+
+/* information pages */
+
+	#information_container {
+		padding: 10px 50px 25px;
+		font-family: Verdana, Sans-Serif;
+		font-size: 12px;
+		min-height: 300px;
+	}
+	
+	#information_container .right span{
+		font-family: Georgia, Serif;
+		font-size: 13px;
+	}
+	
+	#information_container .left {
+		display: table-cell;
+		width: 550px;
+	}
+	
+		#information_container textarea {
+			width: 400px;
+			height: 200px;
+			display: block;
+			margin: 2px 0 5px;
+			padding: 3px;
+			font-family: Verdana, Sans-Serif;
+			font-size: 12px;
+		}
+		#information_container label {
+			font-size: 10px;
+		} 
+		#information_container input {
+			display: block;
+			margin: 2px 0 5px;
+		}
+	
+	#information_container .right .ext {
+		font-size: 10px;
+		font-family: inherit;
+	}
+	
+	#information_container .right {
+		display: table-cell;
+		width: 230px;
+		min-height: 300px;
+		border-left: 1px solid #ccc;
+		padding-left: 20px;
+	}
+	
+		.floating_image {
+			display: table-cell;
+			float: left;
+			margin: 5px 25px 0 0;
+			font-size: 11px;
+			text-align: center;
+			font-family: Georgia, Serif;
+		}
+		
+		.floating_image img {
+			margin-bottom: 3px;
+			border: 1px solid #ccc;
+		}
+/* Artist styles */
+#artist_citation {
+	font-family: Verdana, Sans-Serif;
+	font-size: 12px;
+	padding: 20px 50px;	
+	display: table;
+}
+
+	#artist_citation .left {
+		display: table-cell;
+		width: 150px;
+		padding: 5px;
+		vertical-align: top;
+		text-align: right;
+	}
+	
+	#artist_citation .right {
+		display: table-cell;
+		padding-left: 20px;
+	}
+	#artist_citation .details {
+		font-family: Georgia, Serif;
+	}
+	
+.control_win {
+	width: 600px;
+	margin: 0 auto;
+	font-size: 10px;
+	font-family: Arial, Sans-serif;
+	color: #333;
+	text-transform: uppercase;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	background: #eee;
+}
+
+.control_win a, .control_win span {
+	padding: 0 10px;
+	border-right: 1px solid #aaa;
+}
+
+	.control_win span {
+		color: #aaa;
+	}
+
+	.control_win a:hover {
+		background: #FFFFCC;	
+	}

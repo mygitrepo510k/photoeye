@@ -1,0 +1,20 @@
+.col1,.col2,.col3{
+position: relative;
+display: inline-block;
+margin: 0 auto;
+}
+.container {
+position: relative;
+margin-left: auto;
+margin-right: auto;
+width: 460px;
+}
+.col1{
+width: 366px;
+}
+.col2{
+width: 480px;
+}
+.col3{
+width: 383px;
+}

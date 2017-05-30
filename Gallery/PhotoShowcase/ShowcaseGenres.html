@@ -1,0 +1,172 @@
+<CFQUERY NAME="qGetShowcaseGenreInfo"  DATASOURCE="photoeyecom">
+  SELECT *
+  FROM GalleryDefaultPhotos, GallerySetup WHERE GallerySetup.CUSTNUMBER=GalleryDefaultPhotos.CUSTNUMBER
+  ORDER BY GENRE1;
+</CFQUERY>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>photo-eye Photographer's Showcase | Genres</title>
+</head>
+
+
+
+<body bgcolor="#333333" text="#FFFFFF" link="Silver" vlink="Gray" alink="Red">
+
+
+
+<table width="565" border="0" cellspacing="6" cellpadding="5" align="center">
+  <tr> 
+    <td colspan="6" height="71" bgcolor="#000000"><img src="SharedImages/ShowcaseGenres.gif" width="432" height="69"></td>
+  </tr>
+  <tr> 
+    <td colspan="3" height="36" bgcolor="#000000"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFF99">Landscapes</font><font face="Verdana, Arial, Helvetica, sans-serif" size="2"></font></b> 
+    </td>
+    <td colspan="3" height="36" bgcolor="#000000"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFF99">Nudes</font><font face="Verdana, Arial, Helvetica, sans-serif" size="2"></font></b></td>
+  </tr>
+  <tr> 
+    <td rowspan="5" height="388" background="SharedImages/GenreBackgroundVerticalLine.gif">&nbsp;</td>
+    
+	<cfloop query="qGetShowcaseGenreInfo">
+	#qGetShowcaseGenreInfo.firstname# #qGetShowcaseGenreInfo.Lastname# - Genre=#qGetShowcaseGenreInfo.Genre1#
+	
+	</cfloop>
+	
+	<td width="151" height="77"> 
+      <p><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> </font>
+	  <font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>
+	  <a href="Artists/DariusHimes/index.html" target="_parent""><font size="1">
+	  		Darius Himes</font></a><font size="1"><br>
+        <font color="#999999">Olive Trees of Bahj&iacute;</font></font></b></font></b></p>
+    </td>
+    
+	
+	
+	<td width="77"><a href="Artists/DariusHimes/index.html" target="_parent"">
+		<img src="Artists/DariusHimes/Images_Thumbs/Image1.jpg" width="63" height="64" border="0" alt=""></a>
+	</td>
+	
+    <td rowspan="5" height="388" width="1" background="SharedImages/GenreBackgroundVerticalLine.gif">
+		&nbsp;
+	</td>
+	
+    <td width="150" height="77"> 
+      <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font size="1"><a href="Artists/DariusHimes/index.html" target="_parent"">Your 
+        Name Here</a> <br>
+        <font color="#999999">Title of Portfolio </font></font></b></font></p>
+    </td>
+    <td width="83"><img src="SharedImages/Image1a.jpg" width="63" height="64"></td>
+  </tr>
+  <tr> 
+    <td width="151" height="77"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font size="1"><a href="Artists/DariusHimes/index.html" target="_parent"">Your 
+      Name Here</a><br>
+      <font color="#999999">Title of Portfolio</font><br>
+      </font></b></font></td>
+    <td width="77" height="77"><img src="SharedImages/Image1a.jpg" width="44" height="64"></td>
+    <td width="150" height="77"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font size="1"><a href="Artists/DariusHimes/index.html" target="_parent"">Your 
+      Name Here</a><br>
+      <font color="#999999">Title of Portfolio </font></font></b></font></td>
+    <td width="83" height="77"><img src="SharedImages/Image1a.jpg" width="63" height="52"></td>
+  </tr>
+  <tr> 
+    <td width="151" height="77"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font size="1"><a href="Artists/DariusHimes/index.html" target="_parent"">Your 
+      Name Here</a><br>
+      <font color="#999999">Title of Portfolio</font><br>
+      </font></b></font></td>
+    <td width="77"><img src="SharedImages/Image1a.jpg" width="64" height="64"></td>
+    <td width="150" height="77"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font size="1"><a href="Artists/DariusHimes/index.html" target="_parent"">Your 
+      Name Here</a><br>
+      <font color="#999999">Title of Portfolio </font></font></b></font></td>
+    <td width="83"><img src="SharedImages/Image1a.jpg" width="42" height="64"></td>
+  </tr>
+  <tr> 
+    <td width="151" height="77"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font size="1"><a href="Artists/DariusHimes/index.html" target="_parent"">Your 
+      Name Here</a><br>
+      <font color="#999999">Title of Portfolio</font><br>
+      </font></b></font></td>
+    <td width="77"><img src="SharedImages/Image1a.jpg" width="61" height="48"></td>
+    <td width="150" height="77"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font size="1"><a href="Artists/DariusHimes/index.html" target="_parent"">Your 
+      Name Here</a><br>
+      <font color="#999999">Title of Portfolio </font></font></b></font></td>
+    <td width="83"><img src="SharedImages/Image1a.jpg" width="64" height="54"></td>
+  </tr>
+  <tr> 
+    <td width="151" height="80"> 
+      <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font size="1"><a href="Artists/DariusHimes/index.html" target="_parent""> 
+        Your Name Here</a><br>
+        <font color="#999999">Title of Portfolio<br>
+        </font> </font></b></font></p>
+    </td>
+    <td width="77" height="80"><img src="SharedImages/Image1a.jpg" width="63" height="57"></td>
+    <td width="150" height="80"> 
+      <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font size="1"><a href="Artists/DariusHimes/index.html" target="_parent"">Your 
+        Name Here</a><br>
+        <font color="#999999">Title of Portfolio </font></font></b></font></p>
+    </td>
+    <td width="83" height="80"><img src="SharedImages/Image1a.jpg" width="63" height="49"></td>
+  </tr>
+  <tr> 
+    <td colspan="3" height="37" bgcolor="#000000"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFF99">Portraits</font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFF99"></font></b></font></td>
+    <td colspan="3" height="37" bgcolor="#000000"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFF99">Documentary 
+      </font></b></td>
+  </tr>
+  <tr> 
+    <td rowspan="3" height="231" bgcolor="#660000">&nbsp;</td>
+    <td width="151" height="77"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font size="1"><a href="Artists/DariusHimes/index.html" target="_parent"">Your 
+      Name Here</a><br>
+      <font color="#999999">Title of Portfolio</font><br>
+      </font></b></font></td>
+    <td width="77"><img src="SharedImages/Image1a.jpg" width="63" height="58"></td>
+    <td rowspan="3" height="231" bgcolor="#660000" width="1">&nbsp;</td>
+    <td width="150" height="77"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font size="1"><a href="Artists/DariusHimes/index.html" target="_parent"">Your 
+      Name Here</a><br>
+      <font color="#999999">Title of Portfolio </font></font></b></font></td>
+    <td width="83"><img src="SharedImages/Image1a.jpg" width="63" height="64"></td>
+  </tr>
+  <tr> 
+    <td width="151" height="77"> 
+      <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font size="1"><a href="Artists/DariusHimes/index.html" target="_parent"">Your 
+        Name Here</a><br>
+        <font color="#999999">Title of Portfolio</font> </font></b></font></p>
+    </td>
+    <td width="77"><img src="SharedImages/Image1a.jpg" width="52" height="64"></td>
+    <td width="150" height="77"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font size="1"><a href="Artists/DariusHimes/index.html" target="_parent"">Your 
+      Name Here</a><br>
+      <font color="#999999">Title of Portfolio </font></font></b></font></td>
+    <td width="83"><img src="SharedImages/Image1a.jpg" width="34" height="64"></td>
+  </tr>
+  <tr> 
+    <td width="151" height="77"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font size="1"><a href="Artists/DariusHimes/index.html" target="_parent"">Your 
+      Name Here</a><br>
+      <font color="#999999">Title of Portfolio </font></font></b></font></td>
+    <td width="77"><img src="SharedImages/Image1a.jpg" width="63" height="64"></td>
+    <td width="150" height="77"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font size="1"><a href="Artists/DariusHimes/index.html" target="_parent"">Your 
+      Name Here</a><font color="#999999"><br>
+      Title of Portfolio</font><br>
+      </font></b></font></td>
+    <td width="83"><img src="SharedImages/Image1a.jpg" width="63" height="56"></td>
+  </tr>
+  <tr> 
+    <td colspan="3" height="45" bgcolor="#000000"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFF99">Street 
+      Photography </font><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFF99"></font></b></font></td>
+    <td colspan="3" height="45" bgcolor="#000000"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FFFF99">Fashion/Style 
+      </font></b></td>
+  </tr>
+  <tr> 
+    <td width="1" height="85" bgcolor="#660000">&nbsp;</td>
+    <td width="151" height="85"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font size="1"><a href="Artists/DariusHimes/index.html" target="_parent"">Your 
+      Name Here</a><br>
+      <font color="#999999">Title of Portfolio </font></font></b></font></td>
+    <td width="77" height="85"><img src="SharedImages/Image1a.jpg" width="41" height="64"></td>
+    <td width="1" height="85" bgcolor="#660000">&nbsp;</td>
+    <td width="150" height="85"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font size="1"><a href="Artists/DariusHimes/index.html" target="_parent"">Your 
+      Name Here</a><br>
+      <font color="#999999">Title of Portfolio</font><br>
+      </font></b></font></td>
+    <td width="83" height="85"><img src="SharedImages/Image1a.jpg" width="63" height="54"></td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* CSS Document, this document contains the styles for the Magazine division*/
+
+a {color:#7C88CE;}
+
+.DivisionMenuTop {background:url(../Images/dshadowV1.jpg) repeat-x;
+background-color:#7C88CE;}
+
+#DivisionMenuBottom {background:url(../Images/dshadowV2.jpg) repeat-x;
+border:solid 5px #7C88CE;}
+
+#IEroot .DivisionMenuRight {width:400px;}
+
+.MainArea {border:solid 5px #7C88CE;
+border-top:0px;
+border-bottom:0px;}
+
+.MALeft {width:980px;}
+
+.Title {font-family:Arial, Helvetica, sans-serif;
+font:Arial, Helvetica, sans-serif;
+font-size:24px;
+margin-left:25px;
+margin-top:25px;
+color:#7C88CE;
+margin-bottom:30px;
+text-transform:uppercase;}
+
+	.HomeSection {color:#7C88CE;
+	margin-left:25px;
+	margin-right:25px;
+	font-size:14px;
+	text-transform:uppercase;
+	border-bottom:1px dotted #7C88CE;
+	margin-top:0px;}
+	
+	.HomeSection a {color:#7C88CE;}
+	
+	.HomeSection a:hover {color:#999999;}
+
+	.Author {color:#999999;
+	border-right:1px solid #999999;
+	padding-right:5px;}
+
+.ArticleObject {width:500px;
+	margin:25px 25px 10px 25px;
+	margin-left:25px;
+	height:200px;
+	color:#666666;}
+	
+.ArticleObject a {color:#7C88CE;}
+	
+	.ArticleObjectImage {float:left;
+	text-align:center;
+	width:200px;
+	padding:10px 20px 10px 0px;
+	border-right: 1px solid #7C88CE;}
+
+	.ArticleObjectText {float:left;
+	margin-top:15px;
+	width:250px;
+	margin-left:20px;
+	font-size:12px;}
+	
+	.ArticleObjectH1 {font-size:18px;
+	color:#7C88CE;
+	margin-top:5px;
+	margin-bottom:5px;
+	}
+	
+	.ArticleObjectH2 {font-size:10px;
+	text-transform:uppercase;
+	margin-bottom:3px;
+	margin-top:-6px;
+	color:#7C88CE;}
+	
+	.Name {font-weight:bold;
+	text-transform:uppercase;}
+	
+	.ArticleObjectLink {font-size:10px;
+	margin-right:20px;
+	margin-top:5px;
+	text-align:right;}
+	
+	.HomeSectionFooter {text-align:right;
+	margin:15px 25px 25px 0;
+	font-size:10px;
+	text-transform:uppercase;}
+	
+.ArticleContainer {width:615px;
+margin:0px 25px 0px 25px;
+color:#666666;
+padding:0px}
+
+	.ArticleContainer a {color:#7C88CE;}
+	
+	.ArticleText {margin-top:15px;
+	margin-left:0px;
+	padding:0px;
+	font-size:13px;
+	line-height:18px;}
+	
+	.ArticleImageL {float:left;
+	padding:10px 20px 8px 0px;}
+	
+	.ArticleImageLTitle {float:left;
+	text-align:left;
+	width:320px;
+	font-size:11px;
+	padding:0 0 10px 0;}
+	
+	.ArticleImageR {float:right;
+	padding:10px 0 8px 20px;}
+	
+	.ArticleImageRTitle {float:right;
+	text-align:right;
+	width:320px;
+	font-size:11px;
+	padding:0 0 10px 0;}
+	
+	.Underlined {border-bottom:dotted 1px #959595;}
+	
+.ArticleFooter {font-size:11px;
+text-transform:uppercase;
+text-align:right;
+width:500px;
+float:right;
+margin-top:25px;}

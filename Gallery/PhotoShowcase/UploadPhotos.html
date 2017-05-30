@@ -1,0 +1,355 @@
+<HTML>
+<HEAD>
+
+  <TITLE>photo-eye Photographer's Showcase } Upload Photos</TITLE>
+  <META NAME="KEYWORDS" CONTENT="">
+  <META NAME="GENERATOR" CONTENT="HTMLpad Pro">
+
+</HEAD>
+ <BODY bgcolor="#CCCC99" link="navy" vlink="navy"  alink="Red" topmargin="0">
+<H1> 
+  <CENTER>
+    <font face="Verdana, Arial, Helvetica, sans-serif" size="4">Upload Photos 
+    for Review</font> 
+  </CENTER></H1>
+
+<FORM ACTION="../../../templates/Photoshowcase/UploadPhotos.cfm?RequestTimeOut=10000" 
+      METHOD="POST"
+      ENCTYPE="multipart/form-data">
+
+      
+  <p>&nbsp;</p>
+  <table width="500" border="0" cellspacing="0" cellpadding="3" align="center">
+    <tr> 
+      <td width="46" valign="top"> 
+        <div align="right"><font face="verdana, arial, helvetica, sans-serif" color="black" size="1">Step 
+          1 -</font></div>
+      </td>
+      <td width="442"> 
+        <div align="left"><font face="verdana, arial, helvetica, sans-serif" color="black" size="1">Please 
+          keep the maximum size of your jpg files to 50K bytes each<br>
+          Maximum size should be 144 height x 144 width.</font></div>
+      </td>
+    </tr>
+    <tr> 
+      <td width="46" valign="top"> 
+        <div align="right"><font face="verdana, arial, helvetica, sans-serif" color="black" size="1">Step 
+          2 -</font></div>
+      </td>
+      <td width="442"><font face="verdana, arial, helvetica, sans-serif" color="black" size="1">Your 
+        jpg image files must be named exactly as follows: Image1.jpg Image2.jpg 
+        Image3.jpg etc.</font></td>
+    </tr>
+    <tr> 
+      <td width="46" valign="top"> 
+        <div align="right"><font face="verdana, arial, helvetica, sans-serif" color="black" size="1">Step 
+          3 -</font></div>
+      </td>
+      <td width="442"><font face="verdana, arial, helvetica, sans-serif" color="black" size="1">Click 
+        on the browse buttons and locate the directory in which your JPG files 
+        exist on your hard disk.</font></td>
+    </tr>
+    <tr> 
+      <td width="46" valign="top"> 
+        <div align="right"><font face="verdana, arial, helvetica, sans-serif" color="black" size="1">Step 
+          4 -</font></div>
+      </td>
+      <td width="442"><font face="verdana, arial, helvetica, sans-serif" color="black" size="1">Click 
+        the UPLOAD button when you've included all files.<br>
+        Submit at least 10, but up to 20 images (recommended). </font></td>
+    </tr>
+    <tr> 
+      <td width="46">&nbsp;</td>
+      <td width="442">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="46">&nbsp;</td>
+      <td width="442"><font face="verdana, arial, helvetica, sans-serif" color="black" size="1"><font size ="2">Enter 
+        your first name and last Name<br>
+        with no space in between. (Mixed case only, eg. BobSmith)</font></font></td>
+    </tr>
+    <tr> 
+      <td width="46" height="35">&nbsp;</td>
+      <td width="442" height="35"><font face="verdana, arial, helvetica, sans-serif" color="black" size="1"><font size ="2"> 
+        <input type="text" name="Name2" size="45">
+        </font></font></td>
+    </tr>
+    <tr> 
+      <td width="46">&nbsp;</td>
+      <td width="442">&nbsp;</td>
+    </tr>
+  </table>
+  <table width="500" border="0" cellspacing="0" cellpadding="3" align="center">
+    <tr> 
+      <td width="56">&nbsp;</td>
+      <td width="19">&nbsp;</td>
+      <td width="8"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FF0000"><b>*</b></font></td>
+      <td width="293"> <font face="Verdana, Arial, Helvetica, sans-serif" color="#000000" size="2">Denotes 
+        the first 10 required images</font></td>
+    </tr>
+    <tr> 
+      <td width="56" height="63"> 
+        <div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Image</font></div>
+      </td>
+      <td width="19" height="63"> 
+        <div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">1</font></div>
+      </td>
+      <td width="8" height="63"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FF0000"><b>*</b></font></td>
+      <td width="293" height="63"> 
+        <input name="FileName1" size="45" type="FILE">
+        <img src="Image1.jpg" width="48" height="63"> </td>
+    </tr>
+    <tr> 
+      <td width="56"> 
+        <div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Image</font></div>
+      </td>
+      <td width="19"> 
+        <div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">2</font></div>
+      </td>
+      <td width="8"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FF0000"><b>*</b></font></td>
+      <td width="293"> 
+        <input name="FileName2" size="45" type="FILE">
+      </td>
+    </tr>
+    <tr> 
+      <td width="56"> 
+        <div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Image</font></div>
+      </td>
+      <td width="19"> 
+        <div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">3</font></div>
+      </td>
+      <td width="8"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FF0000"><b>*</b></font></td>
+      <td width="293"> 
+        <input name="FileName3" size="45" type="FILE">
+      </td>
+    </tr>
+    <tr> 
+      <td width="56"> 
+        <div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Image</font></div>
+      </td>
+      <td width="19"> 
+        <div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">4</font></div>
+      </td>
+      <td width="8"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FF0000"><b>*</b></font></td>
+      <td width="293"> 
+        <input name="FileName4" size="45" type="FILE">
+      </td>
+    </tr>
+    <tr> 
+      <td width="56"> 
+        <div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Image</font></div>
+      </td>
+      <td width="19"> 
+        <div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">5</font></div>
+      </td>
+      <td width="8"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FF0000"><b>*</b></font></td>
+      <td width="293"> 
+        <input name="FileName5" size="45" type="FILE">
+      </td>
+    </tr>
+    <tr> 
+      <td width="56"> 
+        <div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Image</font></div>
+      </td>
+      <td width="19"> 
+        <div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">6</font></div>
+      </td>
+      <td width="8"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FF0000"><b>*</b></font></td>
+      <td width="293"> 
+        <input name="FileName6" size="45" type="FILE">
+      </td>
+    </tr>
+    <tr> 
+      <td width="56"> 
+        <div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Image</font></div>
+      </td>
+      <td width="19"> 
+        <div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">7</font></div>
+      </td>
+      <td width="8"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FF0000"><b>*</b></font></td>
+      <td width="293"> 
+        <input name="FileName7" size="45" type="FILE">
+      </td>
+    </tr>
+    <tr> 
+      <td width="56"> 
+        <div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Image</font></div>
+      </td>
+      <td width="19"> 
+        <div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">8</font></div>
+      </td>
+      <td width="8"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FF0000"><b>*</b></font></td>
+      <td width="293"> 
+        <input name="FileName8" size="45" type="FILE">
+      </td>
+    </tr>
+    <tr> 
+      <td width="56"> 
+        <div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Image</font></div>
+      </td>
+      <td width="19"> 
+        <div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">9</font></div>
+      </td>
+      <td width="8"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FF0000"><b>*</b></font></td>
+      <td width="293"> 
+        <input name="FileName9" size="45" type="FILE">
+      </td>
+    </tr>
+    <tr> 
+      <td width="56"> 
+        <div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Image</font></div>
+      </td>
+      <td width="19"> 
+        <div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">10</font></div>
+      </td>
+      <td width="8"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FF0000"><b>*</b></font></td>
+      <td width="293"> 
+        <input name="FileName10" size="45" type="FILE">
+      </td>
+    </tr>
+    <tr> 
+      <td width="56"> 
+        <div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Image</font></div>
+      </td>
+      <td width="19"> 
+        <div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">11</font></div>
+      </td>
+      <td width="8">&nbsp;</td>
+      <td width="293"> 
+        <input name="FileName11" size="45" type="FILE">
+      </td>
+    </tr>
+    <tr> 
+      <td width="56"> 
+        <div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Image</font></div>
+      </td>
+      <td width="19"> 
+        <div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">12</font></div>
+      </td>
+      <td width="8">&nbsp;</td>
+      <td width="293"> 
+        <input name="FileName12" size="45" type="FILE">
+      </td>
+    </tr>
+    <tr> 
+      <td width="56"> 
+        <div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Image</font></div>
+      </td>
+      <td width="19"> 
+        <div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">13</font></div>
+      </td>
+      <td width="8">&nbsp;</td>
+      <td width="293"> 
+        <input name="FileName13" size="45" type="FILE">
+      </td>
+    </tr>
+    <tr> 
+      <td width="56"> 
+        <div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Image</font></div>
+      </td>
+      <td width="19"> 
+        <div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">14</font></div>
+      </td>
+      <td width="8">&nbsp;</td>
+      <td width="293"> 
+        <input name="FileName14" size="45" type="FILE">
+      </td>
+    </tr>
+    <tr> 
+      <td width="56"> 
+        <div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Image</font></div>
+      </td>
+      <td width="19"> 
+        <div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">15</font></div>
+      </td>
+      <td width="8">&nbsp;</td>
+      <td width="293"> 
+        <input name="FileName15" size="45" type="FILE">
+      </td>
+    </tr>
+    <tr> 
+      <td width="56"> 
+        <div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Image</font></div>
+      </td>
+      <td width="19"> 
+        <div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">16</font></div>
+      </td>
+      <td width="8">&nbsp;</td>
+      <td width="293"> 
+        <input name="FileName16" size="45" type="FILE">
+      </td>
+    </tr>
+    <tr> 
+      <td width="56"> 
+        <div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Image</font></div>
+      </td>
+      <td width="19"> 
+        <div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">17</font></div>
+      </td>
+      <td width="8">&nbsp;</td>
+      <td width="293"> 
+        <input name="FileName17" size="45" type="FILE">
+      </td>
+    </tr>
+    <tr> 
+      <td width="56"> 
+        <div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Image</font></div>
+      </td>
+      <td width="19"> 
+        <div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">18</font></div>
+      </td>
+      <td width="8">&nbsp;</td>
+      <td width="293"> 
+        <input name="FileName18" size="45" type="FILE">
+      </td>
+    </tr>
+    <tr> 
+      <td width="56"> 
+        <div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Image</font></div>
+      </td>
+      <td width="19"> 
+        <div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">19</font></div>
+      </td>
+      <td width="8">&nbsp;</td>
+      <td width="293"> 
+        <input name="FileName19" size="45" type="FILE">
+      </td>
+    </tr>
+    <tr> 
+      <td width="56"> 
+        <div align="right"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Image</font></div>
+      </td>
+      <td width="19"> 
+        <div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">20</font></div>
+      </td>
+      <td width="8">&nbsp;</td>
+      <td width="293"> 
+        <input name="FileName20" size="45" type="FILE">
+      </td>
+    </tr>
+    <tr> 
+      <td colspan="4"> 
+        <div align="center"><b> 
+          <input type="SUBMIT" value="Upload Images" name="SUBMIT">
+          </b></div>
+      </td>
+    </tr>
+  </table>
+  <font face="verdana, arial, helvetica, sans-serif" color="black" size="1"><font size ="2"><font color="red" size="2"><font color="black"><font color="red" size="2"><font color="black"><font color="red" size="2"><font color="black"><font color="red" size="2"><font color="black">
+  <input type="HIDDEN" name="FileName1_required" value="You must enter at least 10 images! Click the browse button to find them on your hard drive">
+  <input type="HIDDEN" name="FileName2_required" value="You must enter at least 10 images! Click the browse button to find them on your hard drive">
+  <input type="HIDDEN" name="FileName3_required" value="You must enter at least 10 images! Click the browse button to find them on your hard drive">
+  <input type="HIDDEN" name="FileName4_required" value="You must enter at least 10 images! Click the browse button to find them on your hard drive">
+  <input type="HIDDEN" name="FileName5_required" value="You must enter at least 10 images! Click the browse button to find them on your hard drive">
+  <input type="HIDDEN" name="FileName6_required" value="You must enter at least 10 images! Click the browse button to find them on your hard drive">
+  <input type="HIDDEN" name="FileName7_required" value="You must enter at least 10 images! Click the browse button to find them on your hard drive">
+  <input type="HIDDEN" name="FileName8_required" value="You must enter at least 10 images! Click the browse button to find them on your hard drive">
+  <input type="HIDDEN" name="FileName9_required" value="You must enter at least 10 images! Click the browse button to find them on your hard drive">
+  <input type="HIDDEN" name="FileName10_required" value="You must enter at least 10 images! Click the browse button to find them on your hard drive">
+  <br>
+  </font></font></font></font></font></font></font></font></font></font><BR>
+  <b> </b> 
+</FORM>
+
+</BODY>
+</HTML>

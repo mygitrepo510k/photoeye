@@ -1,0 +1,1 @@
+<cflocation url="/gallery/submissions.cfm" addToken="no">

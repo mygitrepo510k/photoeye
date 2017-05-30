@@ -1,0 +1,437 @@
+@charset "UTF-8";
+/* CSS Document, this document contains the styles for the Magazine division*/
+
+a {color:#A8905C;}
+
+
+.DivisionMenuTop {background:url(../Images/dshadowGAL1.jpg) repeat-x;
+background-color:#A8905C;}
+
+.DivisionMenu {overflow:hidden;}
+
+#DivisionMenuBottom {background:url(../Images/dshadowGAL2.jpg) repeat-x;
+border:solid 5px #A8905C;}
+
+.DivisionMenuLeft {margin-right:0;}
+
+.DivisionMenuRight {width:650px;}
+
+			#IEroot .DivisionMenuRight {width:650px;
+			margin-right:10px;}
+			
+			#IEroot #DivisionMenuBottom .DivisionMenuRight {width:auto;}
+
+.MainArea {border:solid 5px #A8905C;
+border-top:0px;
+border-bottom:0px;}
+
+.MALeft {width:980px;}
+
+	.BSsearchTop {width:290px;}
+		
+		.BSsearchTop form {height:20px;
+	margin:0px;
+	padding-bottom:5px;}
+	
+	#IEroot .BSsearchTop {width:450px;}
+
+.TestDiv {margin-left:auto;
+margin-right:auto;
+text-align:center;}
+
+.TestDiv img {border:1px solid #999;
+margin-right:15px;
+display:inline;}
+
+.Title {font-family:Arial, Helvetica, sans-serif;
+font:Arial, Helvetica, sans-serif;
+font-size:24px;
+margin-left:25px;
+margin-top:25px;
+color:#A8905C;
+margin-bottom:30px;
+text-transform:uppercase;
+text-align:center;}
+
+	.GallerySection {color:#A8905C;
+	margin:0 25px 50px 25px;
+	font-size:14px;
+	text-transform:uppercase;
+	border-bottom:1px dotted #A8905C;}
+	
+	.GallerySection a {color:#A8905C;}
+	
+	.GallerySection a:hover {color:#999999;}
+
+	.Author {color:#999999;
+	border-right:1px solid #999999;
+	padding-right:5px;}
+	
+.GalleryItemContainer {width:980px;
+text-align:center;
+font-size:10px;
+margin:30px 0 25px 0;}	
+	
+	.GalleryItem {display: table; 
+	margin: 0 auto;
+	}
+	
+		.GalleryItemImage {display:table-cell;
+		float:left;
+		margin:0 7px 0 7px;}
+		
+		#IEroot .GalleryItemImage { 
+		display: inline; 
+		float: none; 
+		} 
+			
+			.GalleryItemImage img {border:1px solid #000;
+			margin-bottom:3px;}
+			
+		.GalleryItemText {width:425px;}
+
+
+/*.GalleryObject {width:715px;
+	margin:25px 25px 10px 140px;
+	height:300px;
+	color:#666666;}
+	
+.GalleryObject a {color:#A8905C;}
+
+	.GalleryObjectItem {float:left;
+	padding:10px 20px 10px 0px;}
+	
+	.GalleryObjectImage {
+	text-align:center;
+	width:auto;}
+	
+		.GalleryObjectImage img {border:solid 1px black;}
+
+	.GalleryObjectText {margin-top:8px;
+	font-size:10px;
+	text-align:center;}*/
+	
+	.ArticleObjectH1 {font-size:18px;
+	color:#A8905C;
+	margin-top:5px;
+	margin-bottom:5px;
+	}
+	
+	.ArticleObjectH2 {font-size:10px;
+	text-transform:uppercase;
+	margin-bottom:3px;
+	margin-top:-6px;
+	color:#A8905C;}
+	
+	.Name {font-weight:bold;
+	text-transform:uppercase;}
+	
+	.GalleryObjectLink {font-size:10px;
+	margin:60px 20px 15px 0;
+	text-align:right;}
+	
+	.HomeSectionFooter {text-align:right;
+	margin:15px 25px 25px 0;
+	font-size:10px;
+	text-transform:uppercase;}
+	
+.ArticleContainer {width:615px;
+margin:0px 25px 0px 25px;
+color:#666666;
+padding:0px}
+
+	.ArticleContainer a {color:#A8905C;}
+	
+	.ArticleText {margin-top:15px;
+	margin-left:0px;
+	padding:0px;
+	font-size:13px;
+	line-height:18px;}
+	
+	.ArticleImageL {float:left;
+	padding:10px 20px 8px 0px;}
+	
+	.ArticleImageLTitle {float:left;
+	text-align:left;
+	width:320px;
+	font-size:11px;
+	padding:0 0 10px 0;}
+	
+	.ArticleImageR {float:right;
+	padding:10px 0 8px 20px;}
+	
+	.ArticleImageRTitle {float:right;
+	text-align:right;
+	width:320px;
+	font-size:11px;
+	padding:0 0 10px 0;}
+	
+	.Underlined {border-bottom:dotted 1px #A8905C;}
+	
+.ArticleFooter {font-size:11px;
+text-transform:uppercase;
+text-align:right;
+width:500px;
+float:right;
+margin-top:25px;}
+
+#IEroot .Centered_Container {width:980px;
+text-align:center;}
+
+.Centered_Container {width:auto;
+overflow:auto;
+margin:0 auto;
+padding-bottom:75px;}
+
+.FeatureSpot {width:900px;
+	margin-top:25px;
+	margin-bottom:10px;
+	height:250px;
+	color:#666666;}
+	
+	.NewFeature {height:285px;
+	width:610px;
+	margin:10px 25px 10px 25px;}
+
+.FeatureSpot a {color:#A8905C;}
+	
+	.FeatureSpotImage {float:left;
+	text-align:right;
+	width:500px;
+	padding:10px 20px 10px 0px;}
+		
+		.FeatureSpotImage img {border: 1px solid #A8905C;}
+	
+	.NewFeature .FeatureSpotImage {width:610px;
+	height:285px;
+	border:none;
+	padding:0px;}
+
+	.FeatureSpotText {float:left;
+	width:300px;
+	padding-left:20px;
+	font-size:13px;
+	border-left:1px solid #ddd;
+	margin-top:10px;
+	text-align:left;
+	line-height:18px;}
+	
+		.FeatureSpotText font {line-height:normal;}
+		
+		.GalleryH1 {font-size:18px;font-weight:bold;font:Arial, Helvetica, sans-serif;font-family:Arial, Helvetica, sans-serif; line-height:22px;}
+	
+	.FeatureSpotH1 {font-size:18px;
+	color:#A8905C;
+	margin-top:5px;
+	margin-bottom:5px;
+	line-height:normal;
+	}
+	
+	.FeatureSpotH2 {font-size:10px;
+	text-transform:uppercase;
+	margin-bottom:3px;
+	margin-top:-6px;
+	color:#A8905C;}
+	
+	.Name {font-weight:bold;
+	text-transform:uppercase;}
+	
+	.FeatureSpotLink {font-size:10px;
+	margin-right:20px;
+	margin-top:5px;
+	text-align:right;}
+	
+	.FeatureSpotFooter {text-align:right;
+	margin:15px 25px 25px 0;
+	font-size:10px;
+	text-transform:uppercase;}
+	
+#Menu_TR td {border-top:1px solid #666;
+			border-bottom:1px solid #666}
+			
+#HopePagePE_Container td {vertical-align:bottom;
+font-size:10px;
+color:#999;}
+
+#HopePagePE_Container div {margin-bottom:25px;}
+
+#HopePagePE_Container .hr {margin-top:10px;
+background:#CCC;
+width:400px;
+height:1px;
+overflow:hidden;}
+			
+/* lightbox styles */
+
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#closer {height:25px;width:25px;margin:0 auto;position:relative;bottom:-23px;}
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#lightboxCaption{ background:#000; color: white; font-family:Verdana, Arial, Helvetica, sans-serif; font:Verdana, Arial, Helvetica, sans-serif; font-size:12px; height:auto; position: absolute; top:10px; left: 10px; padding:50px 25px; line-height:19px; z-index:11; text-align:left;}
+
+#captionToggle, #infoToggle{ color:#A8905C;cursor:pointer;display:block;float:right;margin-right:8px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 80%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#infoLink { width: 100%; height: 70px; display: block; float: right; position: relative;}
+.iLoff:hover {background: url(/global/images/infolabel.gif) bottom center no-repeat;}
+.iLon:hover {background: url(/global/images/infolabelb.gif) bottom center no-repeat;}
+
+#prevLink:hover, #prevLink:visited:hover { background: url(/global/images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(/global/images/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: hidden; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 100%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+.info3 {float:left; padding-bottom:10px;}
+#imageData #numberDisplay{ display: block; float: right; text-align:right; padding-bottom: 1.0em;	}
+#numberDisplayIE { display: block; float: right; text-align:left; position:relative; right:20px; margin-left:20px; }
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
+
+	#lightboxMenu {
+		position: relative;
+		top: 7px;
+		font-size: 8px;
+		color: #aaa;
+		font-family: Arial, Verdana, Sans-serif;
+		text-align: left;
+		text-transform: uppercase;
+		margin: 0 auto;
+		cursor: pointer;
+		line-height: normal;
+	}
+	
+		#lightboxMenu .LBmenu:hover {
+			color: #A8905C;
+		}
+	
+		#lightboxMenu div {
+			height: 10px;
+			width: 33%;
+		}
+		
+		#lightboxMenuItem1 {
+			float: left;
+			text-align: left;
+		}
+		
+			#lightboxMenuItem1 div {
+				width: 100%;
+			}
+		#lightboxMenuItem2 {
+			float: right;
+			text-align: right;
+		}
+		
+		#lightboxMenuItemNavbox {
+			float: left;
+			text-align: center;	
+		}
+		
+			#lightboxMenuItem3 {
+				padding-right:10px;
+			}
+			
+			#lightboxMenuItem3b {
+			
+			}
+			
+			#lightboxMenuItem4 {
+				padding-left:10px;
+			}
+	
+	#linkToMeWin {
+		font-size: 12px;
+		font-family: Arial, Verdana, Sans-serif;
+		background: #666;
+		color: #ddd;
+		border:1px solid #333;
+		position: absolute;
+		line-height: normal;
+	}
+	
+	#linkToMeWinTop {
+		background: #333;
+		font-size: 8px;
+		height: 12px;
+		padding: 1%;
+		text-align: left;
+		text-transform: uppercase;
+		width: 98%;
+	}
+	
+	#linkToMeDisp {
+		background: white;
+		color: #333;
+		padding: 4px;
+		float: left;
+	}
+	
+	#linkToMeSend {
+		float: right;
+		text-transform: uppercase;
+		font-size: 10px;
+		padding: 4px;
+	}
+	
+		#linkToMeSend a {
+			text-decoration: none;
+			color: white;
+		}
+
+/* gallery img grid styles margin-left:150px;*/
+#Artist_Info {margin-left:75px;font-size:24px; color:#666666;}
+
+	#Artist_Info span {font-size:14px;}
+	
+	#Gallery_Menu {margin-left:15px;
+	position:relative;
+	left:-18px;
+	top:2px}
+		
+		#Gallery_Menu a {font-size:13px;background: transparent url(/global/images/menudotG.gif) no-repeat scroll right 5px;
+		padding:0 10px 0 3px;}
+	/* RR 8/21/2013 margin:30px 0 0 168px; */
+#Portfolio_Info {font-size:14px;
+letter-spacing:1px;
+color:#666;
+margin:30px 0 0 75px;}
+
+	#Portfolio_Info span {font-size:12px;letter-spacing:normal;display:block;margin:4px 0;}
+/* RR 8/21/2013Old width:665px;*/
+#Img_Container {text-align:center;
+padding:0 25px;
+margin:0 auto 0 auto;
+width:860px;}
+
+/* RR 8/21/2013Old was 700px */
+#Portfolios #Img_Container {width:900px;}
+
+	#IEroot #Img_Container {padding:0;
+	margin:0;
+	text-align:left;}
+
+/* RR 8/21/2013Old width:75px; height: 75px; */
+	#Img_Container div {margin:10px 7px 10px 10px; width:150px; height: auto; display:inline-block; vertical-align: top}
+	/* RR 8/21/2013Old was width:120px; height:185px;*/
+	#Portfolios #Img_Container div {width:200px; height: 220px; font-size:10px; color:#999;}
+	
+		#IEroot #Img_Container div {float:none;display:inline;margin:5px;text-align:center;}
+	
+	#Img_Container.Pano div {width:auto; margin-bottom: 40px; vertical-align: middle;}
+	
+	#Img_Container img {border: 1px solid #DDDDDD;}

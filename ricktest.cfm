@@ -1,0 +1,1 @@
+<cfmail to="rick@photoeye.com" from="rick@photoeye.com" cc="rick@photoeye.com" subject="ricktest">test</cfmail>

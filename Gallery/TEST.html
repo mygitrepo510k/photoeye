@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+
+<style> 
+div.setwidth { 
+border: 1px solid red; 
+width: 760px; 
+text-align: center; /* ie hack */ 
+}
+div.wrap { 
+display: table; 
+margin: 0 auto; 
+}
+
+div.float { 
+border: 1px solid green; 
+display: table-cell; 
+float: left; 
+}
+
+* html div.float { /* ie hack */ 
+display: inline; 
+float: none; 
+} 
+</style>
+
+</head>
+
+<div class="setwidth"> 
+<div class="wrap"> 
+<div class="float"><img src="http://www.photoeye.com/artists/KateBreakey/Portfolio1/Images_Large/Image3_H240xW500.jpg" /><br />Kate Breakey</div> 
+<div class="float"><img src="http://www.photoeye.com/artists/KateBreakey/Portfolio1/Images_Large/Image3_H240xW500.jpg" /><br />Kate Breakey</div> 
+<div class="float">lorem</div> 
+<div class="float">lorem</div> 
+</div> 
+</div>
+
+<body>
+</body>
+</html>

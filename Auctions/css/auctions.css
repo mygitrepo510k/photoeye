@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document, this document contains the styles that are consistent throughout the website */
+
+/* These styles affect the larger layout space, menu and containers */
+
+a {color:#61321b;}
+
+.MALeft a {font-family:Verdana, Arial, Helvetica, sans-serif;
+	font:Verdana, Arial, Helvetica, sans-serif; font-size:12px; line-height:18px;}
+
+.MainArea a:hover {color:#9a4a23;} 
+
+
+.DivisionMenuTop {background:url(../images/dshadowA1.jpg) repeat-x;
+background-color:#b8501c;}
+
+#DivisionMenuBottom {background:url(../images/dshadowA2.jpg) repeat-x;
+border:solid 5px #b8501c;}
+
+#AuctionsBody .MainArea {border:solid 5px #b8501c;
+border-top:0px;
+border-bottom:0px;}
+
+	#IEroot .MASearch {height:34px;
+	overflow:hidden;}
+	
+.MALeft {text-align:center;
+font-size:12px;
+line-height:18px;}
+
+	#Auctions_Input {height:25px;
+	margin-top:12px;}
+
+		#IEroot #Auctions_Input {height:28px;
+		padding:2px;
+		margin-top:13px;}
+			
+h3 {cursor:pointer;
+font-size:15px;
+color:#61321b}
+
+h3:hover {color:#9a4a23;}
+
+.faq_answer {margin-left:10px;
+font-size:13px;}
+
+.revealable {color:#0066cc; margin-left: 0px;}
+.revealable_no_arrow {color:#0066cc; margin-left: 0px;}
+.revealee {color:#666; margin-left: 0px; text-align:justify; font-size:14px; line-height:18px; margin-left:0px; margin-top:5px; margin-right: 50px; margin-bottom:12px;}
+.revealee_no_arrow {color:#666; margin-left: 0px; text-align:justify; font-size:14px; line-height:18px; margin-left:0px; margin-top:5px; margin-right: 50px; margin-bottom:12px;}
+.revealer {font-size:13px; cursor:pointer; color:#666; background: url('/images/arrow_right.gif') no-repeat 0px; padding-left:15px;}
+.portfolio_revealer { cursor: pointer; color:#666; background: url('/images/arrow_right.gif') no-repeat 0px; padding-left:15px;}
+.revealer_no_arrow {font-size:13px; cursor:pointer; color:#666;) no-repeat 0px; padding-left:15px;}

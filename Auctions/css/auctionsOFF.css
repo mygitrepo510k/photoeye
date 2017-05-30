@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document, this document contains the styles that are consistent throughout the website */
+
+/* These styles affect the larger layout space, menu and containers */
+
+a {color:#B8492A;}
+
+.DivisionMenuTop {background:url(../images/dshadowA1.jpg) repeat-x;
+background-color:#B8492A;}
+
+#DivisionMenuBottom {background:url(../images/dshadowA2.jpg) repeat-x;
+border:solid 5px #B8492A;}
+
+#AuctionsBody .MainArea {border:solid 5px #B8492A;
+border-top:0px;
+border-bottom:0px;}
+
+	#IEroot .MASearch {height:34px;
+	overflow:hidden;}
+	
+.MALeft {text-align:center;}
+
+	#Auctions_Input {height:25px;
+	margin-top:12px;}
+
+		#IEroot #Auctions_Input {height:28px;
+		padding:2px;
+		margin-top:13px;}
+		
+	.MALeft form .input_button, .MALeft form .input_submit {margin-bottom:10px;}
+	
+	/*	.MALeft .input_text {text-align:right;}
+		
+		form table tbody .input_text, table tbody tr .input_text {text-align:left;}
+		
+		form table tbody input, table tbody tr input {margin-top:2px;margin-left:-1px;}
+		
+		#IEroot .MALeft form table tbody input, #IEroot .MALeft form table tbody tr input {text-align:left;}
+					
+		#IEroot .MALeft input {height:25px;
+		padding:2px;
+		text-align:center;}
+				
+		#IEroot .MALeft b input {text-align:left;}
+		
+		#IEroot .MAcenter table tbody tr td input {text-align:left;}
+		
+		#IEroot tr td div input {background:transparent;}
+		
+		#IEroot .MainArea .MALeft center table tbody tr td table tbody tr td table tbody tr td table tbody tr td input.input_button {text-align:center;}
+		
+		#IEroot .MainArea .MALeft center table tbody tr td table tbody tr td form input.input_button {text-align:center;}
+		
+		#IEroot .ContainAll .MainArea .MALeft div center form div center table tbody tr td .Button {text-align:center;}
+		
+		.Header font {color:#B8492A;}*/

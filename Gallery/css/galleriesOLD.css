@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* CSS Document, this document contains the styles for the Magazine division*/
+
+a {color:#A8905C;}
+
+.DivisionMenuTop {background:url(../Images/dshadowGAL1.jpg) repeat-x;
+background-color:#A8905C;}
+
+#DivisionMenuBottom {background:url(../Images/dshadowGAL2.jpg) repeat-x;
+border:solid 5px #A8905C;}
+
+.MainArea {border:solid 5px #A8905C;
+border-top:0px;
+border-bottom:0px;}
+
+.MALeft {width:980px;}
+
+.Title {font-family:Arial, Helvetica, sans-serif;
+font:Arial, Helvetica, sans-serif;
+font-size:24px;
+margin-left:25px;
+margin-top:25px;
+color:#A8905C;
+margin-bottom:30px;
+text-transform:uppercase;}
+
+	.GallerySection {color:#A8905C;
+	margin-left:25px;
+	margin-right:25px;
+	font-size:14px;
+	text-transform:uppercase;
+	border-bottom:1px dotted #A8905C;
+	margin-top:0px;}
+	
+	.GallerySection a {color:#A8905C;}
+	
+	.GallerySection a:hover {color:#999999;}
+
+	.Author {color:#999999;
+	border-right:1px solid #999999;
+	padding-right:5px;}
+
+.GalleryObject {width:715px;
+	margin:25px 25px 10px 140px;
+	height:300px;
+	color:#666666;}
+	
+.GalleryObject a {color:#A8905C;}
+
+	.GalleryObjectItem {float:left;
+	padding:10px 20px 10px 0px;}
+	
+	.GalleryObjectImage {
+	text-align:center;
+	width:auto;}
+	
+		.GalleryObjectImage img {border:solid 1px black;}
+
+	.GalleryObjectText {margin-top:8px;
+	font-size:10px;
+	text-align:center;}
+	
+	.FeatureSpotH1 {font-size:18px;
+	color:#A8905C;
+	margin-top:5px;
+	margin-bottom:5px;
+	}
+	
+	.FeatureSpotH2 {font-size:10px;
+	text-transform:uppercase;
+	margin-bottom:3px;
+	margin-top:-6px;
+	color:#A8905C;}
+	
+	.Name {font-weight:bold;
+	text-transform:uppercase;}
+	
+	.GalleryObjectLink {font-size:10px;
+	margin-right:20px;
+	margin-top:5px;
+	text-align:right;}
+	
+	.FeatureSpotFooter {text-align:right;
+	margin:15px 25px 25px 0;
+	font-size:10px;
+	text-transform:uppercase;}
+	
+.ArticleContainer {width:615px;
+margin:0px 25px 0px 25px;
+color:#666666;
+padding:0px}
+
+	.ArticleContainer a {color:#A8905C;}
+	
+	.ArticleText {margin-top:15px;
+	margin-left:0px;
+	padding:0px;
+	font-size:13px;
+	line-height:18px;}
+	
+	.ArticleImageL {float:left;
+	padding:10px 20px 8px 0px;}
+	
+	.ArticleImageLTitle {float:left;
+	text-align:left;
+	width:320px;
+	font-size:11px;
+	padding:0 0 10px 0;}
+	
+	.ArticleImageR {float:right;
+	padding:10px 0 8px 20px;}
+	
+	.ArticleImageRTitle {float:right;
+	text-align:right;
+	width:320px;
+	font-size:11px;
+	padding:0 0 10px 0;}
+	
+	.Underlined {border-bottom:dotted 1px #A8905C;}
+	
+.ArticleFooter {font-size:11px;
+text-transform:uppercase;
+text-align:right;
+width:500px;
+float:right;
+margin-top:25px;}

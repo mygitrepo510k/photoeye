@@ -1,0 +1,74 @@
+<!---  <cfif isdefined("All") is false>
+	<cfset All=0>
+</cfif>  --->
+
+<CFQUERY NAME="qShowcaseArtist"  DATASOURCE="photoeyecom">
+  SELECT Distinct *
+  FROM GallerySetup where custnumber=#url.id#
+</CFQUERY>
+
+<CFQUERY NAME="qShowcaseGalleryIndividualPhotos"  DATASOURCE="photoeyecom">
+  	SELECT Distinct *
+ 	FROM GalleryIndividualPhotos where custnumber='#url.id#' and PortfolioName='#url.portfolio#' and NOT (notavailable=4 and imagenumber>1)
+	order by imageposition;
+</CFQUERY>	
+
+
+ <CFQUERY NAME="qShowcasePortfolio"  DATASOURCE="photoeyecom">
+  SELECT Distinct *
+  FROM GalleryPortfolio where Custnumber=#url.id# AND SUBDIRECTORY='#url.portfolio#'
+</CFQUERY> 
+<!--- If no background paramater Exists, Make Background Black --->
+<cfif #len(qShowcasePortfolio.Backgroundcolor)# GT 0>
+	<cfset Background = #trim(qShowcasePortfolio.Backgroundcolor)#>
+<cfelse>
+	<cfset Background = "000000">
+</cfif>
+<cfset Background = "999999">
+<CFIF qShowcasePortfolio.Panorama is 1>
+	<CFSET xPan = 1>
+<CFELSE>
+	<CFSET xPan = 0>
+</CFIF>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+.style2 {font-family: Verdana, Arial, Helvetica, sans-serif}
+.style3 {font-size: 10px}
+.style4 {font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+-->
+</style>
+</head>
+
+<body bgcolor="#333333">
+<cfoutput>
+<table width="84%" height="608" border="0" align="center" cellpadding="0">
+  <tr>
+    <td height="36" colspan="2" bgcolor="#999999"><span class="style2">#qShowcaseArtist.Firstname#  #qShowcaseArtist.Lastname# </span></td>
+    <td colspan="2" bgcolor="#999999"><span class="style4">Home | Portfolios | Bio | Publications | Contact </span></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td width="46%" height="388"><div align="right">
+      <p class="style2">Portfolios<br>
+        <br>
+        <br>
+        <span class="style3">Portfolio1</span><br>
+      </p>
+      <p class="style3">Portfolio2      </p>
+    </div></td>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+  <tr bgcolor="#999999">
+    <td colspan="3">&nbsp;</td>
+    <td width="22%"><span class="style4">Copyright 2004, Lori Nix</span></td>
+  </tr>
+</table>
+</cfoutput>
+</body>
+</html>

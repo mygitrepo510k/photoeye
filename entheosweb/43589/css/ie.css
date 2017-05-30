@@ -1,0 +1,92 @@
+
+h1{
+background: url(../images/logo_bg.png) center no-repeat;
+}
+#content>ul>li{
+background: url(../images/content_bg.png) center no-repeat;
+}
+.pagin>li>a>span, .pagin>li>strong{
+display: none;
+}
+.pagin>li>a:hover>span, .pagin>li.active>a>span, .pagin>li.active>strong{
+display: block;
+}
+#menu>li>strong{
+display: none;
+}
+#menu>li:first-child+li {
+background: url(../images/menu_bg_1.png) 0 no-repeat;
+left: 7px;
+top: 8px;
+}
+#menu>li:first-child+li>em {
+top: 157px;
+left: 173px;
+}
+#menu>li:first-child+li+li {
+background: url(../images/menu_bg_2.png) 0 no-repeat;
+}
+#menu>li:first-child+li+li+li {
+background: url(../images/menu_bg_3.png) 0 no-repeat;
+}
+#menu>li:first-child+li+li+li+li {
+width: 141px;
+height: 141px;
+background: url(../images/menu_bg_4.png) 0 no-repeat;
+}
+#menu>li:first-child+li+li+li+li+li {
+background: url(../images/menu_bg_5.png) 0 no-repeat;
+left: 459px;
+top: 452px;
+}
+#menu>li:first-child+li+li+li+li+li>em {
+top: -39px;
+left: -35px;
+}
+#menu>li:first-child+li+li+li+li+li+li {
+background: url(../images/menu_bg_6.png) 0 no-repeat;
+}
+#menu>li:first-child+li+li+li+li+li+li+li {
+background: url(../images/menu_bg_7.png) 0 no-repeat;
+}
+#menu>li:first-child+li+li+li+li+li+li+li+li {
+background: url(../images/menu_bg_8.png) 0 no-repeat;
+}
+#menu>li:first-child+li+li+li+li+li+li>span {
+width: 112px;
+height: 112px;
+border-radius: 66px;
+-moz-border-radius: 66px;
+-webkit-border-radius: 66px;
+}
+#menu>li:first-child+li>span {
+width: 192px;
+height: 192px;
+border-radius: 96px;
+-moz-border-radius: 96px;
+-webkit-border-radius: 96px;
+}
+#menu>li>span{
+background: url(../images/pixel.png);
+}
+.bubbles>div:first-child>span, .bubbles>div:first-child+div+div+div+div+div+div>span{
+background: url(../images/bubble_1.png) 0px 0px no-repeat;
+}
+.bubbles>div:first-child+div>span,.bubbles>div:first-child+div+div+div+div>span{
+background: url(../images/bubble_2.png) 0px 0px no-repeat;
+}
+.bubbles>div:first-child+div+div>span{
+background: url(../images/bubble_3.png) 0px 0px no-repeat;
+}
+.bubbles>div:first-child+div+div+div+div+div>span{
+background: url(../images/bubble_4.png) 0px 0px no-repeat;
+}
+.bubbles>div:first-child+div+div+div+div+div+div+div>span{
+background: url(../images/bubble_5.png) 0px 0px no-repeat;
+}
+.noRadius{
+border-radius: 0;
+}
+/* -----------------for pie------------------- */
+.readMore, figure{position: relative; behavior: url(js/PIE.htc); }
+.slider>li>div, .submenu_1, .submenu_2, #menu>li>span{position: absolute; behavior: url(js/PIE.htc); }

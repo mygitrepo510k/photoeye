@@ -1,0 +1,11 @@
+<div align="left" style="width:680px; margin:0 auto; font-size:13px;  line-height:18px; color:#666; font-family:Verdana, Arial, sans-serif"> 
+<cfinclude template="dsp_galleries_submissions_ps_menu.cfm">
+<div align="left" style="font-size:20px; line-height:24px; color:#666;"><b>About Photographer's Showcase</b></div><br />
+
+The Photographer's Showcase is photo-eye's online exhibition space that allows us to expand photo-eye Gallery beyond our physical walls, utilizing the internet to present the work of some of the best contemporary photographers. Selection of work can come through various means: some photographers are invited through portfolio reviews and our constant scouting for new work, while others are carefully selected from work submitted to photo-eye.
+<br><br>
+Photographers shown on the Photographer's Showcase are represented by photo-eye Gallery with staff promoting the photographers work and acting on their behalf for sales, image licensing opportunities and more. The artist, however, maintains the physical artwork until it is requested by photo-eye Gallery. Like our other photo-eye Gallery artists, Photographer's Showcase artists are open for inclusion in online exhibitions, exhibitions in photo-eye's physical space in Santa Fe, NM, as well as in photo-eye Gallery's booth at art fairs.
+<br><br>
+Though photo-eye sees many great bodies of work worthy of promotion every year, the Photographer's Showcase cannot accept every portfolio. We are ideally looking for work with a freshness of vision and unique voice, however, other criteria include how the photographer's work fits into the big picture of our gallery, the potential response from our clientele and if the work is suited to our online gallery format. photo-eye endeavors to make sure that the relationship between the Photographer's Showcase artist and our gallery will be beneficial for all.
+<br><br>
+For more information on the Photographer's Showcase please continue reading. To return to submissions overview, <a href="overview.cfm">click here</a>.</div>

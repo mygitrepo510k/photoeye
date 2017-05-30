@@ -1,0 +1,688 @@
+// clear default margins and padding for all elements.
+* { margin: 0; padding: 0; }
+
+body {
+	padding: 10px 0px;
+	font-family: Calibri, Arial, Sans-Serif;
+}
+
+#contain_all {
+	max-width: 1200px;
+	margin: 0 auto;
+	min-width: 936px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+}
+
+a {
+	text-decoration: none;
+	color: #999;
+	outline: none;
+}
+
+a:visited {
+	color: #999;	
+}
+
+a:hover {
+	color: #999;	
+}
+
+a:active {
+	color: #999;
+}
+
+a img { border: none; }
+
+label { 
+	font-size: 9px;
+	text-transform: uppercase;
+	display:block;
+	
+	padding-left: 2px;
+	margin-top: 15px;
+}
+
+textarea {
+	width: 600px;
+	height: 300px;
+}
+
+input[type='submit'] {
+	border: 1px solid #999;
+	background: white;
+}
+
+h4 {
+	margin: 0;
+	font-size: 30px;
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+
+h2 {
+	
+	text-transform: uppercase;
+	font-size: 16px;
+	margin: 0px;
+	font-weight: normal;
+}
+
+form div {
+	font-size: 10px;
+}
+
+form h4 {
+	font-size: 12px;
+	margin: 20px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+form a {
+	font-size: 10px;
+	cursor: pointer;
+}
+
+form a:hover {
+	background: #ffffcc;
+}
+
+.instructions {
+	font-size: 11px;
+	margin:2px;
+	color: #666;
+}
+
+.site_link a {
+	font-size: 30 px;
+	color: maroon;
+}
+
+.site_link a:hover {
+	background: transparent;
+	color: #333;
+}
+
+#content p {
+	
+	font-size: 12px;
+	color: #333;
+}
+
+#footer {
+		width: 100%;
+		text-align: right;
+		font-size: 10px;
+		
+		color: #999;
+		padding-top: 8px;
+		margin-top: 50px;
+	}
+	
+	#footer .top_rule {
+		border-top: 1px solid #aaa;
+	}
+	
+	#footer .left {
+		float: left;
+		text-align: left;
+		font-size: 11px;
+		text-transform: uppercase;
+		color: #333;
+	}
+	
+	#footer .left .tab {
+		padding: 5px;
+		background: #aaa;
+		border-right: #fff 1px solid;
+		float: left;
+	}
+	
+	#footer .left .tab a {
+		color: #fff;
+	}
+
+	#footer .left .tab a:hover {
+		color: #ffffcc;
+	}
+
+
+#menu {
+	width: 100%;
+	height: 53px;
+	line-height: normal;	
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #555;
+	min-width: 936px;
+}
+
+	#menu .fluid_line {
+		height: 53px;
+		background: url('http://www.photoeyeeditions.com/images/menu_line.gif') repeat-x;
+	}
+	
+	#menu .left {
+		float: left;
+		text-align: left;
+	}
+	
+	#menu .right {
+		float: right;
+		text-align: right;
+		height: 52px;
+	}
+	
+	#menu a:hover {
+			background: #FFFFCC;
+			
+		}
+	
+		#logo {
+			background: url('http://www.photoeyeeditions.com/images/logo_line.gif');
+			width: 208px;
+			height: 53px;
+		}
+		
+		#menu .buffer {
+			width: auto;
+			height: 53px;
+			background: url('http://www.photoeyeeditions.com/images/menu_line.gif') repeat-x;
+		}
+		#menu .option {
+			float: left;
+			width: 125px;
+			height: 53px;
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+		}
+			#menu .option a {
+				padding:0 5px;
+			}
+			#menu .option p {
+				margin-top: 14px;
+				padding: 5px 0;
+				border-right: 1px solid #ccc;
+			}
+				#menu .option p.last {
+					border-right: none;
+				}
+		
+		#menu .off {
+			background: url('http://www.photoeyeeditions.com/images/menu_line.gif') repeat-x;
+		}
+			#menu .off a {
+				color: #999;
+			}
+		#menu .on {
+			background: url('http://www.photoeyeeditions.com/images/menu_on.gif') center;
+		}
+			#menu .on a {
+				color: #333;
+			}
+		#menu .end {
+			width: 1px;
+			background: url('http://www.photoeyeeditions.com/images/menu_end.gif');
+			height: 53px;
+			float: left;
+		}
+		
+	.content {
+		width: 100%;
+		min-width: 835px;
+		color: #333;
+		margin: 0 auto;
+	}
+	
+		.content h1 {
+			color: #666;
+		}
+	
+		.padded_inner {
+			padding: 0px 25px;
+		}
+	
+/* feature publication */
+		.big_citation {
+			vertical-align: middle;
+			color: #333;
+			padding: 20px 50px;
+			
+			font-size: 11px;
+			min-height: 450px;
+		}
+			.big_citation h1 {
+				margin: 5px 0;
+				font-size: 30px;
+				line-height: 36px;
+				font-weight: normal;
+			}
+			
+			.big_citation h2 {
+				margin: 0 0 10px 0;
+				font-weight: normal;
+				
+				font-size: 12px;
+			}
+			
+			.big_citation h2 a {
+				color: #333;
+			}
+			
+			.big_citation h3 {
+				text-tranform: uppercase;
+				margin: 0;
+				font-size: 10px;
+				font-weight: normal;
+				
+			}
+			
+			.big_citation .image {
+				margin: 0 25px 10px 0;
+				float: left;
+				text-align: right;
+			}
+			
+				.big_citation .image img {
+					border: 1px solid #666;
+				}
+			
+			.big_citation p {
+				margin: 0px;
+			}
+			.centered_vertically {
+				display: table-cell;
+				height: 200px;
+				vertical-align: middle;
+			}
+/* small citations */
+	
+	.small_citation_row {
+		padding-left: 13px;
+		display: table;
+		clear:both;
+	}
+		
+		.small_citation {
+			font-size: 10px;
+			
+			color: #333;
+			text-align:center;
+			width: 150px;
+			padding: 25px 37px;
+			float: left;
+		}
+		
+		.small_citation em {
+			font-size: 13px;
+			
+			line-height: 14px;
+		}
+		
+/* full citation */
+
+	.align_middle {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	
+	.align_bottom {
+		display: table-cell;
+		vertical-align: bottom;
+		height: 100%;
+	}
+	
+	#about_us {
+		padding: 0 150px;
+	}
+	
+/* two_column styles (shared by artist and publication pages) */
+.two_column {
+	font-size: 14px;
+	padding: 20px 0 20px 50px;	
+	display: table;
+}
+
+	.trow {
+		display: table-row;
+	}
+
+	.two_column .left {
+		display: table-cell;
+		padding: 5px;
+		vertical-align: top;
+		text-align: right;
+		padding-right: 30px;
+	}
+	
+	.two_column .right {
+		display: table-cell;
+		padding-left: 5px;
+	}
+	.two_column h4 {
+		padding: 10px 0;
+		line-height: 36px;
+	}
+	.two_column p {
+/* 		white-space: pre-line; */
+		clear:both;
+		padding-top: 0;
+		padding-bottom: 25px;
+		color: #666;
+	}
+	
+	.two_column .details {
+		color: #999;
+		line-height: normal;
+		font-size: 15px;
+		letter-spacing: 2px;
+	}
+	
+	.two_column .tagline {
+		font-size: 12px;
+	}
+	
+/*	.two_column .tab {
+		border: 1px solid #ccc;
+		border-left: none;
+		display: table-cell;
+		padding: 5px 7px;
+		text-transform: uppercase;
+		font-size: 10px;
+	} 
+*/
+	.two_column .tab {
+		float:left;
+		padding: 0 10px 0 0;
+		margin-right: 5px;
+		text-transform: uppercase;
+		font-size: 12px;
+		background: url('http://www.photoeyeeditions.com/images/tab_divider.gif') center right no-repeat;
+	}
+	
+	.two_column .first_tab .tab {
+		margin-left: 0px;
+		padding-left: 0px;
+		font-size: 11px;
+	}
+	
+	.two_column .last_tab .tab {
+		background: none;
+	}
+	
+	.two_column .menu .on {
+		font-weight: bold;
+		font-size: 11px;
+	}
+		.two_column .menu .on a {
+			color: #000;
+			font-size: 11px;
+		}
+
+	.two_column .menu .off a {
+		color: #666;
+		font-size: 11px;
+	}
+	
+	.two_column .menu .off a:hover {
+		color: #000;
+		font-size: 11px;
+	}
+	
+	.two_column .menu {
+		margin-top: 10px;
+		
+	}
+	
+	.two_column .image_menu {
+		border-top: 2px solid #800000;
+		display: table;
+		margin: 15px auto;
+		width: 360px;
+	}
+	
+	.two_column .image_menu .tab {
+		font-size: 8px;
+		float: left;
+	}
+	
+	.two_column .image_menu .first_tab {
+		display: table-cell;
+	}
+	
+	.primary_image {
+		border: 1px solid #666;
+	}
+	
+	.secondary_images {
+		display: table;
+		margin: 0 auto;
+	}
+	
+	.secondary_images .thumb {
+		width: 98px;
+		height: auto; 
+		margin: 0 10px 20px 10px;
+		float: left;
+		display: block;
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+	
+		.secondary_images .thumb img {
+			border: 1px solid #999;
+		}
+	
+/*	
+	.two_column .menu .on {
+		border-bottom: none;
+		color: #333;
+	}
+	
+	.two_column .menu .first {
+		padding-left: 0px;
+	}
+	
+	.two_column .menu .off {
+		color: #999;
+		background: #eee;
+	}
+	
+	.two_column .buffer {
+		border-bottom: 1px solid #ccc;
+		display: table-cell;
+		width: 100%;
+		padding: 5px;
+	}
+*/
+	
+	.right h2 { margin: 0 0 5px 0; border-bottom: 1px solid #eee; font-weight: bold; display: block; clear:both;}
+	
+	.exhibition { margin: 10px 0 10px 2px; display: block; line-height: 16px; }
+	
+/* information pages */
+
+	#information_container {
+		padding: 10px 0 25px;
+		
+		font-size: 12px;
+		min-height: 300px;
+		margin: 0 auto;
+		display: table;
+		width: 91%;
+	}
+	
+	#information_container .right span{
+		
+		font-size: 13px;
+	}
+	
+	#information_container .left {
+		float: left;
+		padding-right: 50px;
+		width: 60%;
+	}
+	
+		#information_container textarea {
+			height: 200px;
+			width: 100%;
+			display: block;
+			margin: 2px 0 5px;
+			padding: 3px;
+			
+			font-size: 12px;
+		}
+		#information_container label {
+			font-size: 10px;
+		} 
+		#information_container input {
+			display: block;
+			margin: 2px 0 5px;
+		}
+	
+	#information_container .right .ext {
+		font-size: 10px;
+		
+	}
+	
+	#information_container .right {
+		float: right;
+		min-height: 300px;
+		border-left: 1px solid #ccc;
+		padding-left: 20px;
+	}
+	
+		.floating_image {
+			display: table-cell;
+			float: left;
+			margin: 5px 25px 0 0;
+			font-size: 11px;
+			text-align: center;
+			
+		}
+		
+		.floating_image img {
+			margin-bottom: 3px;
+			border: 1px solid #ccc;
+		}
+		
+	#billboard {
+		text-align: center;
+	}
+	
+	#information_container p, #information_container ul {
+		padding: 0 0 25px 0;
+		color: #999;
+	}
+	
+	#information_container ul li {
+		list-style-type: none;
+	}
+	
+	#about_us {
+		padding: 0 100px;
+	}
+		
+/* global content divider */
+	.divider_top {
+		font-weight: normal;
+		font-size: 11px;
+		text-transform: uppercase;
+		
+		border-top: 1px solid #ccc;
+		color: #777;
+		padding: 6px 8px;
+		margin-top: 15px;
+	}
+	.divider_bottom {
+		height: 9px;
+	}
+	.divider_bottom .left{
+		float: left;
+		width: 24px;
+		height: 9px;
+		border-top: 1px solid #ccc;
+	}
+	.divider_bottom .arrow {
+		float: left;
+		width: 16px;
+		height: 9px;
+		background: url('http://www.photoeyeeditions.com/images/divider_arrow.gif');
+	}
+	.divider_bottom .right {
+		float: left;
+		width: 900px;
+		height: 9px;
+		border-top: 1px solid #ccc;
+	}
+	
+	.window {
+		padding-top: 30px;
+	}
+	
+		/* to display errors */
+	
+		.window.error .exclaimation {
+			color: #cc0000;
+		}
+		
+		.window.error .message {
+			border-left: 1px dashed #cc0000;
+			border-right: 1px dashed #cc0000;
+		}
+		
+		.window.error .message span {
+			color: #cc0000;
+		}
+		
+		/* to display notices */
+		
+		.window.notice .exclaimation {
+			color: #3fa61b;
+		}
+		
+		.window.notice .message {
+			border-left: 1px dashed #3fa61b;
+			border-right: 1px dashed #3fa61b;
+		}
+		
+		.window.notice .message span {
+			color: #3fa61b;
+		}
+	
+	.open_buffer {
+		min-height: 1px;
+		border: 1px solid #ccc;
+		border-top: none;
+		border-bottom: 1px solid #aaa;
+	}
+	
+	.close_buffer {
+		min-height: 1px;
+		border: 1px solid #ccc;
+		border-bottom: none;
+	}
+	
+	.exclaimation {
+		float: left;
+		font-size: 83px;
+		padding: 35px 0 0 60px;
+		
+	}
+	
+	.message {
+		margin: 0 10%;
+		padding: 25px;
+		background: white;
+		color: #333;
+		text-align: center;
+		font-size: 14px;
+		min-height: 45px;
+	}
+	
+	.message span {
+		text-transform: uppercase;
+		font-size: 12px;
+	}
